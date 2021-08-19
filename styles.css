@@ -1,0 +1,555 @@
+/* ARCHIA FONTS */
+@font-face {
+    font-family: 'Archia Thin';
+    src: url("fonts/Archia/Archia-Thin.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Archia Light';
+    src: url("fonts/Archia/Archia-Light.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Archia Medium';
+    src: url("fonts/Archia/Archia-Medium.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Archia Regular';
+    src: url("fonts/Archia/Archia-Regular.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Archia SemiBold';
+    src: url("fonts/Archia/Archia-SemiBold.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Archia Bold';
+    src: url("fonts/Archia/Archia-Bold.otf");
+    format: ("opentype");
+}
+
+/* GOTHAM FONTS */
+@font-face {
+    font-family: 'Gotham Thin';
+    src: url("fonts/Gotham/Gotham-Thin_0.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Thin Italic';
+    src: url("fonts/Gotham/Gotham-ThinIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Light';
+    src: url("fonts/Gotham/Gotham-Light_0.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Light Italic';
+    src: url("fonts/Gotham/Gotham-LightIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Book';
+    src: url("fonts/Gotham/Gotham-Book_0.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Book Italic';
+    src: url("fonts/Gotham/Gotham-BookIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url("fonts/Gotham/Gotham-Medium_0.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Medium Italic';
+    src: url("fonts/Gotham/Gotham-MediumIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url("fonts/Gotham/Gotham-Bold.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Bold Italic';
+    src: url("fonts/Gotham/Gotham-BoldIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Black';
+    src: url("fonts/Gotham/Gotham-Black_0.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Black Italic';
+    src: url("fonts/Gotham/Gotham-BlackIta.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url("fonts/Gotham/Gotham-Ultra_3.otf");
+    format: ("opentype");
+}
+@font-face {
+    font-family: 'Gotham Ultra Italic';
+    src: url("fonts/Gotham/Gotham-UltraIta_0.otf");
+    format: ("opentype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100vh;
+    width: 100%;
+    background-color: #000;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#fondo {
+    background-image: url("https://espaciopsicosocial.com.mx/images/005b.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 12vh;
+}
+
+#navbarNav a {
+    font-family: "Gotham Book", sans-serif;
+    color: #FFF;
+}
+
+#navbarNav a:hover {
+    color: #c3dec1;
+}
+
+#navbarNav .dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+
+#navbarNav .dropdown-menu a {
+    color: #FFF;
+}
+
+#navbarNav .dropdown-menu a:hover {
+    color: #ef5a3a;
+    background-color: transparent;
+}
+
+#social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#social a {
+    padding: 0 1%;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.container-fluid h1 {
+    font-family: 'Archia Regular', sans-serif;
+}
+
+.container-fluid p {
+    font-family: "Gotham Book", sans-serif;
+}
+
+#slide1 {
+    height: 100vh;
+    padding-top: 12vh;
+    margin-left: 7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#slide1 h1 {
+    color: #ef5a3a;
+    font-size: 8.5vw;
+}
+
+#slide1 p {
+    font-family: "Gotham Thin", sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    margin-left: 0.6%;
+}
+
+#slide2 {
+    background-color: black;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#david {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#david .container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(239, 90, 58);
+    padding: 5% 5%;
+    border-radius: 20px;
+}
+
+#david .container h1 {
+    font-family: "Archia SemiBold", sans-serif;
+    font-size: 3.5rem;
+    padding: 5% 0;
+    text-align: end;
+}
+
+#david .container p {
+    text-align: end;
+    margin: 0 2%;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+    font-family: "Gotham Thin", sans-serif;
+}
+
+#slide2Content {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+#slide2Content p {
+    text-align: center;
+    font-family: "Archia Thin", sans-serif;
+    font-size: 1.5rem;
+}
+
+#davidUni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#davidUni a {
+    padding: 5%;
+}
+
+#slide3 {
+    align-items: stretch;
+    min-height: 100vh;
+    background-image: url("https://espaciopsicosocial.com.mx/images/005b.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 12vh;
+    padding-bottom: 5%;
+}
+
+#card h1 {
+    font-family: "Archia SemiBold", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 5%;
+    color: rgba(239, 90, 58);
+}
+
+#card p {
+    text-align: left;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+}
+
+#card a {
+    color: rgba(239, 90, 58);
+}
+
+#card-collapse {
+    flex-direction: column;
+}
+
+#card-collapse p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+#card-collapse li {
+    font-family: "Gotham Thin", sans-serif;
+}
+
+#empresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+#empresas img {
+    padding: 1%;
+}
+
+#empresas object {
+    padding: 1%;
+}
+
+#contacto {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(239, 90, 58);
+}
+
+#contacto .col-sm {
+    padding: 5%;
+}
+
+#contacto h1 {
+    font-family: "Archia SemiBold";
+    font-size: 4.8rem;
+    text-align: center;
+    color: #FFF;
+}
+
+#contacto p {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFF;
+}
+
+#arrow {
+    margin-top: 15vh;
+}
+
+#arrow h1 {
+    font-size: 1.5rem;
+}
+
+#arrow a:hover {
+    text-decoration: none;
+}
+
+#arrow h1:hover {
+    color: #c3dec1;
+}
+
+#contactForm {
+    background-color: rgba(239, 90, 58);
+    height: 100vh;
+    padding-top: 20vh;
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Archia SemiBold", sans-serif;
+}
+
+#contactForm h1 {
+    font-size: 8vw;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+#contactForm a {
+    margin: 5vh;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "Archia SemiBold", sans-serif;
+    color: white;
+    border-color: #FFF;
+    border: 5px solid white;
+}
+
+#contactForm a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgba(239, 90, 58);
+    transition: all 0.3s ease;
+}
+
+#contactForm p {
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#contactForm2 {
+    background-color: rgba(239, 90, 58);
+    padding-top: 20vh;
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Archia SemiBold", sans-serif;
+}
+
+#contactForm2 h1 {
+    font-size: 8vw;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+#contactForm2 a {
+    margin: 5vh;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "Archia SemiBold", sans-serif;
+    color: white;
+    border-color: #FFF;
+    border: 5px solid white;
+}
+
+#contactForm2 a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgba(239, 90, 58);
+    transition: all 0.3s ease;
+}
+
+#contactForm2 p {
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#extra {
+    padding-bottom: 5vh;
+}
+
+#footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer h2 {
+    font-family: "Archia Regular", sans-serif;
+    text-align: center;
+    color: #c3dec1;
+    font-size: 2rem;
+    padding-top: 3%;
+}
+
+#footer h1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 1075px) {
+    #slide3 {
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 12vh;
+    }
+
+    #card {
+        padding: 5vh 20vw;
+    }
+
+    #card h1 {
+        padding: 0;
+    }
+
+    #card p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 775px) {
+    #navbarNav {
+        visibility: hidden;
+        display: none;
+    }
+
+    nav #social {
+        visibility: hidden;
+        display: none;
+    }
+
+    nav button {
+        visibility: hidden;
+        display: none;
+    }
+
+    #slide1 h1 {
+        font-size: 11vw;
+    }
+
+    #slide1 p {
+        font-size: 4vw;
+    }
+
+    #slide2 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #slide2Content {
+        padding: 20% 0 10% 0;
+    }
+
+    #david {
+        padding-bottom: 20%;
+    }
+
+    #contactForm #social{
+        display: flex;
+    }
+
+    #footer h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #footer h2 {
+        font-size: 0.7rem;
+    }
+
+    #card h1 {
+        font-size: 2rem;
+    }
+
+    #card p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}
